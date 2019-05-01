@@ -1,9 +1,25 @@
 {
-"scripts": {
+  "scripts": {
     "test": "testcafe chrome:headless tests/**/* -r xunit:/tmp/test-results/res.xml"
   },
   "devDependencies": {
-      "testcafe": "*",
-      "testcafe-reporter-xunit": "*"
-  }
+    "testcafe": "*",
+    "testcafe-reporter-xunit": "*"
+  },
+  "name": "circleci",
+  "description": "",
+  "version": "1.0.0",
+  "main": "test.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genacatharine/circleci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/genacatharine/circleci/issues"
+  },
+  "homepage": "https://github.com/genacatharine/circleci#readme"
 }
